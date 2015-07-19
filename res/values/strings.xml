@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthPlus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="title_activity_main_activity_map">MainActivityMap</string>
+    <string name="title_activity_nearby_place">NearbyPlace</string>
+    <string name="title_activity_splash_screen">Health Plus</string>
+
+</resources>

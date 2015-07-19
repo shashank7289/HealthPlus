@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageButton
+        android:id="@+id/hospital"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/hospital" />
+
+    <ImageButton
+        android:id="@+id/doctors"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/hospital"
+        android:scaleType="fitXY"
+        android:src="@drawable/doctor" />
+
+    <ImageButton
+        android:id="@+id/medshop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/doctors"
+        android:scaleType="fitXY"
+        android:src="@drawable/medshop" />
+
+    <ImageButton
+        android:id="@+id/person"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/person" />
+
+    <ImageButton
+        android:id="@+id/ambulance"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/person"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ambulance" />
+
+</RelativeLayout>
